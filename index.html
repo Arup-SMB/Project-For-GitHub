@@ -9,8 +9,60 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <!-- Font Asowme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
+    <!-- TopBar -->
+    <section class="bg-gray-800 text-white">
+        <div class="container mx-auto px-5 py-2 grid grid-cols-2 items-center">
+            <ul class="grid-cols-1">
+                <li class="inline-block me-3">
+                    <a href="#">
+                        <i class="fa-solid fa-envelope me-2"></i>
+                        customercare.india@philips.com
+                    </a>
+                </li>
+                <li class="inline-block">
+                    <a href="#">
+                        <i class="fa-solid fa-phone-volume me-2"></i>
+                        1-833-213-5839
+                    </a>
+                </li>
+            </ul>
+            <ul class="grid-cols-2 text-end">
+                <li class="inline-block me-2">
+                    <a href="#" >
+                        <i class="fab fa-facebook-f hover:text-blue-700"></i>
+                    </a>
+                </li>
+                <li class="inline-block me-2">
+                    <a href="#" >
+                        <i class="fab fa-whatsapp hover:text-blue-700"></i>
+                    </a>
+                </li>
+                <li class="inline-block me-2">
+                    <a href="#" >
+                        <i class="fab fa-instagram hover:text-blue-700"></i>
+                    </a>
+                </li>
+                <li class="inline-block me-2">
+                    <a href="#" >
+                        <i class="fab fa-twitter hover:text-blue-700"></i>
+                    </a>
+                </li>
+                <li class="inline-block me-2">
+                    <a href="#" >
+                        <i class="fab fa-youtube hover:text-blue-700"></i>
+                    </a>
+                </li>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                    Sign Up
+                </button>
+            </ul>            
+        </div>
+    </section>
+    <!-- TopBar End -->
     <!-- NavBar -->
     <nav class="w-full bg-slate-300 p-4 drop-shadow-lg">
         <div class="container flex justify-between items-center mx-auto px-5">
@@ -19,17 +71,23 @@
                 Philips
             </a>
             <ul class="flex space-x-11 transition-all duration-1000">
-                <li class="text-xl font-semibold uppercase hover:text-blue-500">
+                <li class="text-[16px] font-semibold uppercase hover:text-blue-500">
                     <a href="#" class="">Home</a>
                 </li>
-                <li class="text-xl font-semibold uppercase hover:text-blue-500">
+                <li class="text-[16px] font-semibold uppercase hover:text-blue-500">
                     <a href="#" class="">About Us</a>
                 </li>
-                <li class="text-xl font-semibold uppercase hover:text-blue-500">
-                    <a href="#" class="">Portfolio</a>
+                <li class="text-[16px] font-semibold uppercase hover:text-blue-500">
+                    <a href="#" class="">Products</a>
                 </li>
-                <li class="text-xl font-semibold uppercase hover:text-blue-500">
-                    <a href="#" class="">Contact Us</a>
+                <li class="text-[16px] font-semibold uppercase hover:text-blue-500">
+                    <a href="#" class="">Solutions</a>
+                </li>
+                <li class="text-[16px] font-semibold uppercase hover:text-blue-500">
+                    <a href="#" class="">Offers</a>
+                </li>
+                <li class="text-[16px] font-semibold uppercase hover:text-blue-500">
+                    <a href="#" class="">Support</a>
                 </li>
             </ul>
         </div>
@@ -39,16 +97,45 @@
     <!-- Banner --> 
         <div class="banner owl-carousel">
             <div class="slide">
-                <img src="img/banner.jpg">
+                <img src="img/banner.jpg" alt="" class="w-full h-full object-cover">
             </div>
             <div class="slide">
-                <img src="https://images-na.ssl-images-amazon.com/images/S/abs-image-upload-na/0/AmazonStores/A21TJRUUN4KGV/164ce436e088e923eebdf5efffab1473.w3000.h1500._CR0%2C0%2C3000%2C1500_.jpg" alt="" class="w-full h-full object-cover">
+                <img src="img/banner-2.jpg" alt="" class="w-full h-full object-cover">
             </div>
             <div class="slide">
-                <img src="https://cdn.anscommerce.com/live/image/catalog/brandstore/philips/Philips-DA---Dec-2022-_-Ranveer---D2c-Banner-2.jpg" alt="" class="w-full h-full object-cover">
+                <img src="img/banner-3.jpg" alt="" class="w-full h-full object-cover">
             </div>
         </div>
     <!-- End Banner -->
+    <!-- About Section -->
+    <section>
+        <div class="container mx-auto grid grid-cols-2 p-5 py-5">
+            <div class="grid-cols-1 py-5">
+                <h2 class="text-4xl font-bold my-5 mb-10">
+                    About Us
+                </h2>
+                <img src="img/Global_Content_Life-at-Philips_Ambient-experience21-1692798923207.webp" alt="">
+            </div>
+            <div class="grid-cols-2 py-5 text-start px-10">
+                <h3 class="text-2xl font-medium my-5 mt-20 text-slate-800">
+                    Our innovations
+                </h3>
+                <p class="text-2xl font-medium my-5 text-slate-600">
+                    Innovating for a
+                    <br>
+                    changing landscape
+                </p>
+                <p class="text-[16px] font-medium text-slate-500 leading-7 mb-7">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum voluptates, exercitationem praesentium eligendi consequatur deserunt quae modi, numquam magni aliquid blanditiis iusto suscipit amet cupiditate repellendus aperiam illum illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab molestias eligendi tempora architecto. Provident amet iste quibusdam odio, doloremque voluptatibus pariatur corrupti fugiat inventore aut aperiam ex ad voluptates!
+                </p>
+                <a href="#" class="text-blue-800 text-xl">
+                    Find Out More >
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
