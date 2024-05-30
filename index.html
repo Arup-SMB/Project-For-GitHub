@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Output Css -->
     <link rel="stylesheet" href="output.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 </head>
 <body>
+    <!-- NavBar -->
     <nav class="w-full bg-slate-300 p-4 drop-shadow-lg">
         <div class="container flex justify-between items-center mx-auto px-5">
             <a href="#" class="flex items-center text-blue-800 text-3xl font-semibold gap-2 uppercase tracking-[5px]">
-                <img src="imgs/philips-logo.png" alt="" class="w-14 h-16">
+                <img src="img/philips-logo.png" alt="" class="w-14 h-16">
                 Philips
             </a>
             <ul class="flex space-x-11 transition-all duration-1000">
@@ -29,5 +34,24 @@
             </ul>
         </div>
     </nav>
+    <!-- End NavBar -->
+
+    <!-- Banner --> 
+        <div class="banner owl-carousel">
+            <div class="slide">
+                <img src="img/banner.jpg">
+            </div>
+            <div class="slide">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/abs-image-upload-na/0/AmazonStores/A21TJRUUN4KGV/164ce436e088e923eebdf5efffab1473.w3000.h1500._CR0%2C0%2C3000%2C1500_.jpg" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="slide">
+                <img src="https://cdn.anscommerce.com/live/image/catalog/brandstore/philips/Philips-DA---Dec-2022-_-Ranveer---D2c-Banner-2.jpg" alt="" class="w-full h-full object-cover">
+            </div>
+        </div>
+    <!-- End Banner -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="carousel.js"></script>
 </body>
 </html>
