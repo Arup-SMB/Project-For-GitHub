@@ -9,6 +9,12 @@ $(".product").owlCarousel({
     loop: true,
     margin: 20,
 })
+$(".testimonials").owlCarousel({
+    items: 1,
+    autoplay:true,
+    loop: true,
+    margin: 20,
+})
 // const menuToggle = document.getElementById('menu-toggle');
 // const menu = document.getElementById('menu');
 
