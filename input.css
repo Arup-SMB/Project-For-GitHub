@@ -4,6 +4,27 @@
 
 @layer components {
     .product-slide img {
-        @apply w-[300px] h-[250px] object-contain
+        @apply w-[300px] h-[250px] object-contain;
+    }
+
+    .carousel-img {
+        width: 250px !important;
+    }
+    
+   .owl-dot.active > span{
+    background-color: rgb(12, 19, 60);
+   }
+   .owl-dots{
+    margin-top: 20px;
+    text-align: center;
+   }
+    .owl-dot > span{
+        display: block;
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+        border-radius: 50%;
+        /* background-color: red; */
+        border: 1px solid rgb(12, 19, 60);
     }
 }
