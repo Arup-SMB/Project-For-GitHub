@@ -3,14 +3,14 @@ $(".banner").owlCarousel({
     autoplay:true,
     loop: true,
     dots: false,
-})
+});
 $(".product").owlCarousel({
     items: 3,
     autoplay:true,
     loop: true,
     margin: 20,
     dots: false,
-})
+});
 
 var slider = $('.owl-carousel');
 
@@ -28,7 +28,7 @@ $(".testimonials").owlCarousel({
     loop: true,
     margin: 20,
     dots: true,
-})
+});
 // const menuToggle = document.getElementById('menu-toggle');
 // const menu = document.getElementById('menu');
 
